@@ -4,33 +4,46 @@
     margin: 0 24;
 
 }
+
+h1, h2, h3 {
+    color: black;
+}
+
+p {
+    color: gray;
+    font-size: 12px;
+}
         /** Header **/
 
-container.header {
+.header {
     height: 64px;
     width: auto;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
 .title {
     font-size: 32px;
     display: flex;
+    flex-direction: row;
 }
 
-.title1 {
+.colmar {
     color: black;
 }
 
-.title2 {
+.academy {
     color: gray;
 }
 
 nav {
     font-size: 16px;
-    justify-content: flex-end;
-    display: flex;
     padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+    
+    
     
 }
 
@@ -40,4 +53,23 @@ nav {
 .container {
     height: 24px;
     width: auto;
+    padding: 32px 24px;
+}
+
+
+.test {
+    display: flex;
+    align-content: space-around;
+
+
+}
+
+/** Practicing section **/
+
+.practicing {
+    width: 60%;
+}
+
+.practicing2 {
+
 }
