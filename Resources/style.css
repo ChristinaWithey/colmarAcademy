@@ -29,11 +29,11 @@ p {
     flex-direction: row;
 }
 
-.colmar {
+.colmar-title {
     color: black;
 }
 
-.academy {
+.academy-title {
     color: gray;
 }
 
