@@ -15,11 +15,15 @@ p {
 }
         /** Header **/
 
-.header {
+header {
     height: 64px;
-    width: auto;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    border: 10px solid green;
+    justify-content: space-between;
+        
+       
 }
 
 
@@ -27,6 +31,7 @@ p {
     font-size: 32px;
     display: flex;
     flex-direction: row;
+    border: 3px solid red;
 }
 
 .colmar-title {
@@ -42,34 +47,36 @@ nav {
     padding: 16px;
     display: flex;
     justify-content: flex-end;
-    
-    
-    
+    flex-direction: row; 
+    border: 3px solid red; 
 }
 
 
 
         /** Learn something section **/
-.container {
-    height: 24px;
-    width: auto;
+.learn {
+    width: 60%;
     padding: 32px 24px;
+    background-color: gray;
+    border: 3px solid red
 }
 
 
-.test {
-    display: flex;
-    align-content: space-around;
-
-
-}
 
 /** Practicing section **/
 
 .practicing {
     width: 60%;
+    padding: 32px 24px;
+    display: flex;
+    border: 3px solid red;
+    
+
 }
 
 .practicing2 {
+    
+    border: 3px solid red;
+    width: 40%;
 
 }
